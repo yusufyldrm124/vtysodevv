@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİŞİM</title>
+    <style>
+        body {
+            background: url(images/pexels-philippedonn-1169754.jpg);
+            background-size: cover;
+            padding: 50px;
+            height: auto;
+            text-align: center;
+
+        }
+
+        #h1iletisim {
+            color: aliceblue;
+        }
+
+        #iletisimopak {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px 20px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+            height: 550px;
+        }
+
+        #formgroup {
+            width: 700px;
+            float: left;
+            height: 500px;
+            text-align: left;
+        }
+
+        #solform {
+            width: 50%;
+            float: right;
+
+        }
+
+        #sagform {
+            width: 50%;
+            float: right;
+
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #495057;
+            background-color: white;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid#ced4da;
+        }
+
+        textarea {
+            font-family: Arial;
+        }
+
+        input[type="submit"] {
+            cursor: pointer;
+            background-color: #445c6e;
+            font-size: 18px;
+            letter-spacing: 1px;
+            padding: 10px 30px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        #adres {
+            color: white;
+            width: 450px;
+            float: right;
+            padding: 30px;
+            height: 500px;
+            text-align: left;
+
+        }
+
+        h2 {
+            font-size: 30px;
+            color: turquoise;
+
+        }
+
+        #universeY {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section id="İLETİŞİM">
+        <div class="contanier">
+            <h1 id="h1iletisim">İLETİŞİM</h1>
+            <form action="index2.php" method="post">
+                <div id="iletisimopak">
+                    <div id="formgroup">
+                        <div id="solform">
+                            <input type="text" name="isim" placeholder="ad soyad" required class="form-control">
+                            <input type="text" name="tel" placeholder="telefon numarası" required class="form-control">
+                        </div>
+                        <div id="sagform">
+                            <input type="email" name="mail" placeholder="email adresiniz" required class="form-control">
+                            <input type="text" name="konu" placeholder="konu başlıgı" required class="form-control">
+                        </div>
+                        <textarea name="mesaj" id="" cols="30" placeholder="mesaj giriniz" rows="10" required
+                            class="form-control"></textarea>
+
+                        <input type="submit" value="gönder">
+                    </div>
+                    <div id="adres">
+                        <h2>ADRES: </h2>
+                        <p>mehmet akif ersoy mah.</p>
+                        <p>akyıldız caddesi</p>
+                        <p>oğuz bey sokak no:15</p>
+                        <p>0542 215 70 95</p>
+                        <p>Email: tr.yusuf.yldrm2002@gmail.com</p>
+                    </div>
+                </div>
+            </form>
+            <footer>
+
+                <div id="universeY">UNIVERSEY 2025 tüm hakları saklıdır.</div>
+
+            </footer>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

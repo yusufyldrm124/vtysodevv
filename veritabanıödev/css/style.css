@@ -1,0 +1,162 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.bg-mor {
+    background-color: #3d0934 !important;
+}
+
+#menu {
+    background-color: #ffffff;
+    height: 100px;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 80px;
+    color: black;
+    float: left;
+}
+
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+
+}
+
+nav a:hover {
+    border-bottom: 2px solid #003666;
+
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+.ikon {
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+/* Hero Bölümü */
+.hero {
+    background: url('/images/galaxy-3608029.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: left;
+    padding: 250px 30px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074a6;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-buttons .button:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1fa1d9;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-buttons .button.alt {
+    background-color: #00a8cc;
+}
+
+/* Hizmetler Bölümü */
+.specialization {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.specialization h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(240, 235, 235, 0.1);
+}
+
+.service h3 {
+    color: #632fb1;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.service p {
+
+    color: #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+footer {
+    background-color: #260f2b;
+    border-top: #000000 5px solid;
+}
+
+footer section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer section div {
+    color: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 1%;
+}
